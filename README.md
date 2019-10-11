@@ -8,4 +8,7 @@ UI is implemented using Angular 8 you must have nodejs 10+ to run it download fr
 
 # -
 
-Run Backend using visual studio and copy port used in your browser and paste it in service files in base properties or just change IIS Experess used port to 54589
+Run Backend using visual studio and copy port used in your browser and paste it in service files in base properties or just change IIS Experess used port to 54589.
+
+To Run Angular project you must run command npm install to install node modules dependencies then use the command ng serve -o.
+
