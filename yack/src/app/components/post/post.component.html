@@ -1,0 +1,29 @@
+<div class="text-left">
+  <article>
+    <header>
+      <a style="cursor: pointer;">
+        <div style="font-weight: lighter;" class="h1">
+        {{post.title}}
+        </div>
+      </a>
+      <time class="time" style="font-size: .85em" class="h6">
+        {{post.pubDate | date}}
+      </time>
+    </header>
+    <div>
+            <h3 style="text-align: left;
+            font-size: .9em;
+            font-weight: normal;">Category : {{post.category.categoryName}}
+            </h3>
+      <p>
+        <span style="color: #7b8898;">
+          {{post.content}}
+        </span>
+      </p>
+    </div>
+    <hr />
+    <footer>
+        has <a [routerLink]="[ '/posts', post.id ]">{{post.comments.length}} Comments</a>
+    </footer>
+  </article>
+</div>

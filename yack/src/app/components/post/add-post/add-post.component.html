@@ -1,0 +1,46 @@
+<div class="col-md-6">
+        <form style="font-weight: 600" [formGroup]="postForm" (ngSubmit)="onSubmit()">
+            <div class="form-group">
+            <label for="title">Post Title</label>
+            <input
+              type="text"
+              formControlName="title"
+              [ngClass]="{ 'is-invalid': submitted && form.title.errors }"
+              id="title"
+              class="form-control"
+              placeholder="Title"
+            />
+            <div *ngIf="submitted && form.title.errors" class="invalid-feedback">
+              <div *ngIf="form.title.errors.required"> Title Required</div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="content">Content</label>
+            <input type="textarea"
+            id="content"
+            formControlName="content"
+            placeholder="content"
+            [ngClass]="{ 'is-invalid': submitted && form.content.errors }"
+            class="form-control">
+            <div *ngIf="submitted && form.content.errors" class="invalid-feedback">
+              <div *ngIf="form.content.errors.required">content is required</div>
+            </div>
+          </div>
+          <div class="form-group">
+                <label for="category">Category</label>
+                <select
+                id="category"
+                formControlName="category"
+                placeholder="category"
+                [ngClass]="{ 'is-invalid': submitted && form.category.errors }"
+                class="form-control"><option *ngFor="let category of categories" value="{{category.id}}">{{category.categoryName}}</option>
+            </select>
+                <div *ngIf="submitted && form.category.errors" class="invalid-feedback">
+                  <div *ngIf="form.category.errors.required">category is required</div>
+                </div>
+              </div>
+          <div class="text-center">
+            <button class="btn round btn-default mr-1" style="color:white;background-color: #09D95F;"  >Add</button>
+          </div>
+        </form>
+        </div>

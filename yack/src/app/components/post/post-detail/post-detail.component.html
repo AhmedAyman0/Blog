@@ -1,0 +1,17 @@
+<app-post [post]="post"></app-post>
+
+<app-comment *ngFor="let comment of comments" [comment]="comment" ></app-comment>
+
+<form [formGroup]="commentForm" (ngSubmit)="onSubmit()" style="margin-top: 2em;">
+        <h3 style="text-align: right;
+        font-size: .9em;
+        font-weight: normal;">Post a comment
+        </h3>
+        <textarea formControlName="comment"
+        class="form-control" id="content" name="content" rows="5" cols="70" 
+            placeholder="Enter your comment here..."></textarea>
+
+            <label  for="author">Name</label>
+            <input formControlName="name" class="form-control" id="author" name="author" placeholder="Your name" ><br/>
+            <button  class="btn btn-primary">Post Comment</button>
+    </form>

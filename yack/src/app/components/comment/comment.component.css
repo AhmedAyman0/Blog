@@ -1,0 +1,13 @@
+.comments{
+    background: #f7f7f7;
+    padding: 1.3em 0;
+    word-wrap: break-word;
+}
+
+.comment{
+    margin:  .6em;
+    background: #f1f1f1;
+    border: 1px solid #dfdfdf;
+    box-shadow: 5px 5px 5px #dfdfdf;
+    padding: 0 .4em;
+}

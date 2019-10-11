@@ -1,0 +1,14 @@
+C:\Users\Ahmed\source\repos\BloggingSystem\BloggingSystem\bin\Debug\netcoreapp2.2\BloggingSystem.deps.json
+C:\Users\Ahmed\source\repos\BloggingSystem\BloggingSystem\bin\Debug\netcoreapp2.2\BloggingSystem.runtimeconfig.json
+C:\Users\Ahmed\source\repos\BloggingSystem\BloggingSystem\bin\Debug\netcoreapp2.2\BloggingSystem.runtimeconfig.dev.json
+C:\Users\Ahmed\source\repos\BloggingSystem\BloggingSystem\bin\Debug\netcoreapp2.2\BloggingSystem.dll
+C:\Users\Ahmed\source\repos\BloggingSystem\BloggingSystem\obj\Debug\netcoreapp2.2\BloggingSystem.csprojAssemblyReference.cache
+C:\Users\Ahmed\source\repos\BloggingSystem\BloggingSystem\obj\Debug\netcoreapp2.2\BloggingSystem.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed\source\repos\BloggingSystem\BloggingSystem\obj\Debug\netcoreapp2.2\BloggingSystem.RazorAssemblyInfo.cache
+C:\Users\Ahmed\source\repos\BloggingSystem\BloggingSystem\obj\Debug\netcoreapp2.2\BloggingSystem.RazorAssemblyInfo.cs
+C:\Users\Ahmed\source\repos\BloggingSystem\BloggingSystem\obj\Debug\netcoreapp2.2\BloggingSystem.AssemblyInfoInputs.cache
+C:\Users\Ahmed\source\repos\BloggingSystem\BloggingSystem\obj\Debug\netcoreapp2.2\BloggingSystem.AssemblyInfo.cs
+C:\Users\Ahmed\source\repos\BloggingSystem\BloggingSystem\obj\Debug\netcoreapp2.2\BloggingSystem.RazorTargetAssemblyInfo.cache
+C:\Users\Ahmed\source\repos\BloggingSystem\BloggingSystem\bin\Debug\netcoreapp2.2\BloggingSystem.pdb
+C:\Users\Ahmed\source\repos\BloggingSystem\BloggingSystem\obj\Debug\netcoreapp2.2\BloggingSystem.dll
+C:\Users\Ahmed\source\repos\BloggingSystem\BloggingSystem\obj\Debug\netcoreapp2.2\BloggingSystem.pdb
